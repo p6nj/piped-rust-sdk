@@ -1,0 +1,9 @@
+[package]
+name = "rolltube"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+piped = { path = "../piped" }
+reqwest = { workspace = true, features = ["default"] }
+tokio = { workspace = true }

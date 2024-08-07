@@ -5,9 +5,9 @@ publish = false
 version = "0.0.0"
 
 [dev-dependencies]
-piped = {path = "../piped"}
-reqwest = "^0.11"
-tokio = {version = "1", features = ["macros", "rt-multi-thread"]}
+piped = { path = "../piped" }
+reqwest = { workspace = true, features = ["default"] }
+tokio = { workspace = true }
 
 [[example]]
 name = "channel"

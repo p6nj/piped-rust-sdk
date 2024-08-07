@@ -1,5 +1,6 @@
 [workspace]
-members = [
-  "piped",
-  "examples",
-]
+members = ["piped", "examples", "rolltube"]
+
+[workspace.dependencies]
+reqwest = { version = "0.12", default-features = false }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
