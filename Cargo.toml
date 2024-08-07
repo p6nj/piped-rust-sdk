@@ -1,5 +1,6 @@
 [workspace]
 members = ["piped", "examples", "rolltube"]
+resolver = "2"
 
 [workspace.dependencies]
 reqwest = { version = "0.12", default-features = false }

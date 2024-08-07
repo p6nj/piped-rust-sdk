@@ -1,7 +1,7 @@
 [package]
 authors = ["Kavin <kavin@kavin.rocks>"]
 description = "An API wrapper for the privacy friendly YouTube frontend called Piped."
-edition = "2018"
+edition = "2021"
 keywords = ["youtube"]
 license = "GPL-3.0"
 name = "piped"
